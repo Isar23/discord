@@ -1,0 +1,85 @@
+/**
+* @name ELYSIA
+* @author Purple Wizard#0984
+* @version 3.0
+* @invite SBuYeHh
+* @description An amazing RGB theme with full customization included, made by Purple Wizard.
+* @source https://github.com/GoldenLys/BetterDiscord-Elysia
+* @website https://goldenlys.github.io/ThemeGen
+* @authorLink https://github.com/GoldenLys
+*/
+
+@import url("https://goldenlys.github.io/BetterDiscord-Elysia/aerobase.css");/* DO NOT REMOVE THIS LINE */
+@import url("https://goldenlys.github.io/BetterDiscord-Elysia/RGB/2.css");/* DO NOT REMOVE THIS LINE */
+
+/*  PLUGINS (optional)  */
+@import url("https://fonts.googleapis.com/css?family=Quicksand&amp;display=swap");
+@import url("https://goldenlys.github.io/BetterDiscord-Elysia/HoverMemberList.css");
+@import url("https://goldenlys.github.io/BetterDiscord-Elysia/NoOffline.css");
+@import url("https://goldenlys.github.io/BetterDiscord-Elysia/HorizontalServerList.css");
+
+/*  GENERAL CONFIG  */
+
+:root {
+	--title: "E N Z A N E";
+	--font: "Quicksand", sans-serif;
+	--logo: url("https://media.giphy.com/media/gFP8AUnmiOjwSr17io/giphy.gif");
+	--background: url("https://images.hdqwalls.com/wallpapers/dodge-charger-artwork-4k-0x.jpg");
+	--C1: rgba(0,23,173,1);
+	--C2: rgba(0,10,143,1);
+	--time: 5s;
+	--ServerSize: 45px;
+	--ServerColumns: 2;
+
+	/*  STATUSES  */
+	--Online: rgb(0, 255, 136);
+	--Idle: rgb(0, 99, 156);
+	--Unavailable: rgb(228, 15, 0);
+	--Offline: rgb(90, 95, 100);
+	--StreamingColor: rgb(78, 0, 180);
+
+	/*  PROFILE HEADERS (you can also use "url(LINKtoIMAGE)" for the profile headers)  */
+	--Playing: url("https://www.wallpapertip.com/wmimgs/28-287970_chevrolet-camaro-ss-1969-background-data-src-camaro.jpg");
+	--Xbox: url("https://wallpapercave.com/wp/j5FahXr.jpg");
+	--Spotify: url("https://c4.wallpaperflare.com/wallpaper/248/228/896/1969-chevrolet-camaro-ss-black-coupe-wallpaper-preview.jpg");
+	--Streaming: url("https://wallpapercave.com/wp/HQGMXMJ.jpg");
+
+	/*  MENUS COLORS  */
+	--grey: rgba(179,179,179,1);
+	--grey5: rgba(143,143,143,0.5);
+	--darkgrey: rgb(18, 18, 18);
+	--darkgrey5: rgba(23,23,23,0.75);
+	--TitleBG: var(--darkgrey5);
+	--ChatBox: var(--darkgrey5);
+	--Sidebar: var(--darkgrey5);
+	--SendMessage: var(--darkgrey);
+	--HoverMessage: var(--darkgrey5);
+	--Highlighted: rgba(13,206,212,1);
+	--ActiveBox: rgb(235 235 235);
+
+	/* CUSTOM TEXTS */
+	--JoinUs: "ENZANE";
+	--AddNewServer: "➕ Add a new server";
+	--ProfilePic: "Watch me";
+	--Close: "✖";
+	--Resize: "🔳";
+	--Hide: "🔙";
+	--Unread: "👁";
+	--Options: "🔧";
+	--Emoji: "🙂";
+	--EmojiHover: "😜";
+	--Channel: "💬";
+	--Voice: "🔊";
+	--Announcement: "✉";
+	--Community: "ENZane";
+	--WelcomeMessage: "Welcome ENZANE";
+	--Watermark: "Made by ENZANE";
+	--EditStatus: "Put another status";
+	--Folders: "📁";
+	--FoldersOpen: "📂";
+	--Micro: "🎙️";
+	--Headset: "🎧";
+	--WriteMessage: 'Write a message...';
+	--TaggedName: 'YOU';
+	--ListenAlong: 'Listen Along';
+}
